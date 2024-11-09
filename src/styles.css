@@ -9,6 +9,7 @@ body {
 
 .text-center {
     text-align: center;
+    color: yellowgreen;
 }
 
 
@@ -16,6 +17,29 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
+}
+
+section h2 {
+
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 0;
+        letter-spacing: 5px;
+        color: yellowgreen important !;
+        opacity: 0.6;
+        text-transform: uppercase;
+        text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
+}
+
+section h3 {
+        font-weight: 700;
+            font-size: 40px;
+            line-height: 1.5;
+            color: yellowgreen;
+            margin: 0;
+            padding-bottom: 30px;
+            text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
 }
 
 .grid {
@@ -164,7 +188,7 @@ main h2 {
     line-height: 1.5;
     margin: 0;
     letter-spacing: 5px;
-    color: yellowgreen;
+    color: yellowgreen important!;
     opacity: 0.6;
     text-transform: uppercase;
     text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
