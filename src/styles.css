@@ -1,0 +1,291 @@
+body {
+    background: #151B23;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 64px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-4-columns {
+    grid-template-columns: repeat(4, 1fr) !important;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2;
+}
+
+.card {
+    background: #181b22;
+    margin: 30px 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-footer {
+    padding: 0 30px 30px;
+}
+
+.btn {
+    display: block;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #F81412;
+    text-decoration: none;
+    filter: drop-shadow(0 0 0.75rem #f81312);
+
+}
+
+section.secondary {
+    background: #3B434C;
+}
+
+
+h1 {
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    font-style: normal;
+    color: greenyellow;
+}
+
+h2, h3, h4, h5, a, li {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)), url(../src/images/ghostbuster-logo.png);
+    color: greenyellow;
+    text-align: center;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+header h1 {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+    text-shadow: 1px 1px 10px yellowgreen, 2px 2px 10px #ccc;
+}
+
+header h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0;
+    text-shadow: 1px 1px 10px yellowgreen, 2px 2px 10px #ccc;
+}
+
+header h3 {
+    font-weight: 900px;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 1px 1px 10px yellowgreen, 2px 2px 10px #ccc;
+}
+
+header a {
+    text-decoration: none;
+    color: yellowgreen;
+    text-shadow: 1px 1px 10px yellowgreen, 2px 2px 10px #ccc;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 16px 32px;
+    margin-top: 32px;
+    display: inline-block;
+    letter-spacing: 3px;
+    background: #151B23;
+    filter: drop-shadow(0 0 0.75rem rgb(140, 255, 0));
+}
+
+main {
+    background-color: #0E1117;
+}
+
+.gatekeeper {
+    filter: drop-shadow(0 0 2rem rgb(255, 53, 37));
+}
+
+.peter, .egon {
+    filter: drop-shadow(0 0 2rem rgb(255, 53, 37));
+}
+
+.winston, .ray {
+    filter: drop-shadow(0 0 2rem rgb(152, 240, 255));
+}
+
+main h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    letter-spacing: 5px;
+    color: yellowgreen;
+    opacity: 0.6;
+    text-transform: uppercase;
+    text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
+    }
+
+    main h3 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.5;
+        color: yellowgreen;
+        margin: 0;
+        text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
+        }
+
+        main h4 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.5;
+            color: yellowgreen;
+            margin: 0;
+            text-shadow: 1px 1px 10px yellowgreen, 1px 1px 10px #ccc;
+        }
+
+        main h5 {
+            font-style: 700;
+            font-size: 13px;
+            margin: 0;
+            line-height: 1;
+            color: yellowgreen;
+            text-shadow: 1px 1px 10px yellowgreen, 1px 1px 10px #ccc;
+        }
+
+        main p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            color: yellowgreen;
+            opacity: 0.8;
+        }
+    
+
+.ghostbustersButton {
+    filter: drop-shadow(0 0 0.75rem rgb(32, 255, 0));
+}
+
+footer {
+    color: yellowgreen;
+    background-image: linear-gradient(rgba(21, 27, 35, 0.9),
+     rgba(21, 27, 35, 0.9)), url(./images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-shadow: 0.25px 0.25px 2.5px yellowgreen, 0.25px 0.25px 2.5px #ccc;
+}
+
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    margin-right: 20px;
+    line-height: 24px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer a {
+    color: yellowgreen;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+@media(max-width: 960px) {
+
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header h3 {
+        font-size: 12px;
+    }   
+
+    .grid {
+        grid-template-columns: 1fr !important;
+        grid-gap: 32px;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    main h3 {
+        font-size: 30px;
+    }
+
+   .gatekeeper {
+        max-width: 460px;
+        margin-bottom: 30px;
+    }
+}
