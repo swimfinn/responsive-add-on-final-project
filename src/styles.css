@@ -1,5 +1,11 @@
 body {
     background: #151B23;
+    cursor: url('./images/ghostbustersCursor.png'), auto !important;
+    cursor: url('./images/slimer.png'), default;
+}
+
+a:hover {
+    cursor: url('./images/slimer.png'), auto;
 }
 
 .container {

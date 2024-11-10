@@ -13,6 +13,9 @@
     />
   </head>
   <body>
+    <audio id="background=music" autoplay loop>
+        <source src="./src/audio/ghostbusters.mp3" type="audio/mp3">
+    </audio>
     <div class="container">
       <header>
         <h3>
@@ -321,4 +324,10 @@
       </footer>
     </div>
   </body>
+  <script>
+  window.addEventListener('click', () => {
+    const music = document.getElementById('background-music');
+    music.play();
+  }, { once: true }); // Play only on the first click
+</script>
 </html>
