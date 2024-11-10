@@ -60,10 +60,12 @@ blockquote, .img-responsive {
 
 .grid-2-columns {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
 }
 
 .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 
 .grid-4-columns {
