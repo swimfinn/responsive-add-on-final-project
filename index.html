@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <audio src="./src/audio/ghostbusters.mp3" autoplay loop>
+  <body onclick="toggleMusic()">
+    <audio id="music" src="./src/audio/ghostbusters.mp3" autoplay loop>
     </audio>
     <div class="container">
       <header>
@@ -322,11 +322,16 @@
         </section>
       </footer>
     </div>
+
+      <script>
+      function toggleMusic() {
+            const audio = document.getElementById("music");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
   </body>
-  <script>
-  window.addEventListener('click', () => {
-    const music = document.getElementById('background-music');
-    music.play();
-  }, { once: true }); // Play only on the first click
-</script>
 </html>
