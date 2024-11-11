@@ -327,5 +327,6 @@ footer a {
 
     blockquote {
         overflow-x: auto;
+        overflow-y: auto;
     }
 }
