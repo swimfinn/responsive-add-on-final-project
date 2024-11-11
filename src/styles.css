@@ -251,6 +251,17 @@ main h2 {
     filter: drop-shadow(0 0 0.75rem rgb(32, 255, 0));
 }
 
+.clip-1, .clip-6 {
+    filter: drop-shadow(0 0 0.75rem rgb(140, 255, 0));
+}
+
+.clip-2, .clip-4 {
+    filter: drop-shadow(0 0 0.75rem #f81312);
+}
+
+.clip-3, .clip-5 {
+    filter: drop-shadow(0 0 2rem rgb(152, 240, 255));
+}
 
 footer {
     color: yellowgreen;
